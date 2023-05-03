@@ -1,7 +1,7 @@
 public with sharing class OpportunityHandler {
     public static void valor10k(List<Opportunity> triggerNew) {
         for(Opportunity newOpp: triggerNew) {
-            if(newOpp.Amount > 10000) {         
+            if(newOpp.Amount > 10000 && newOpp.StageName == 'closed Won') {         
                         // criar tarefa
                 Task novaTarefa = new Task();
                 novaTarefa.Subject = 'Os produtos devem ser separados e enviados.';
