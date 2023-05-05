@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Montserrat+Alternates:wght@300&family=Satisfy&display=swap');
+
+/* Informações gerais da página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Gruppo', sans-serif;
+}
+
+body {
+    background-color: #B15C34;
+}
+
+            /* Animação NÃO PRECISA COPIAR*/
+
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+body {
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+}
+
+svg {
+	width: 100%;
+	height: 100vh;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+#base {
+	cursor: pointer;
+} */
+
+/* Header com nav */
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 7px 30px 7px 30px;
+    background-color: #FCBA98;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 90px;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: black;
+    margin-left: 20px;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 200px 0px 250px;
+}
+
+.bannerimg {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Section para conteúdo principal - main, aside */
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    align-items: top;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+aside {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: max-content;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.publi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.publi iframe {
+    border-radius: 10px;
+}
+
+.publi img {
+    height: 100px;
+    margin: 10px;
+}
+
+.publi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.publi iframe {
+    border-radius: 10px;
+}
+
+.publi img {
+    height: 100px;
+    margin: 10px;
+}
+
+.mainC {
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+.EntreContato {
+    text-align: center;
+    margin: 50px;
+    font-size: 35px;
+}
+
+.maincontac {
+    background-color: #E39974;
+    padding: 30px;
+    border-radius: 15px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.teste {
+    justify-content: center;
+    color: black;
+}
+
+.formC {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.teste01 {
+    border-style: none;
+    border-radius: 10px;
+}
+
+form input,
+select,
+textarea {
+    padding: 10px 30px;
+    margin: 12px;
+}
+
+.submitform:hover {
+    border-radius: 20px;
+}
+/*Fim de section de cadastro*/
+
+/* Botão retornar ao topo */
+.topo {
+    height: 30px;
+    margin-left: 95%;
+}
+
+/* Footer */
+footer {
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+/*Animação do Footer*/
+.wrapper .button {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover {
+    width: 200px;
+}
+
+.wrapper .button .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1):hover .icon {
+    background: #4267B2;
+}
+
+.wrapper .button:nth-child(2):hover .icon {
+    background: #1DA1F2;
+}
+
+.wrapper .button:nth-child(3):hover .icon {
+    background: #E1306C;
+}
+
+.wrapper .button:nth-child(4):hover .icon {
+    background: #ff0000;
+}
+
+.wrapper .button:nth-child(5):hover .icon {
+    background: #bfddf3;
+}
+
+.wrapper .button:nth-child(6):hover .icon {
+    background: #1d47de;
+}
+
+.wrapper .button .icon i {
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover .icon i {
+    color: #fff;
+}
+
+.wrapper .button span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1) span {
+    color: #4267B2;
+}
+
+.wrapper .button:nth-child(2) span {
+    color: #1DA1F2;
+}
+
+.wrapper .button:nth-child(3) span {
+    color: #E1306C;
+}
+
+.wrapper .button:nth-child(5) span {
+    color: #ff0000;
+}
+
+.wrapper .button:nth-child(6) span {
+    color: #1d47de;
+}
+
+.extra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+@media (max-width: 850px) {
+    .container {
+        width: fit-content;
+    }
+
+    .maincontac {
+        margin-bottom: 50px;
+    }
+
+    aside {
+        margin-top: 50px;
+    }
+
+    .wrapper {
+        flex-wrap: wrap;
+    }
+}
