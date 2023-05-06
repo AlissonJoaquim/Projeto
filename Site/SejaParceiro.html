@@ -36,66 +36,69 @@
     <section class="container">
         <aside>
             <div class="publi">
-                <img src="imagem/products.png" class="tnt">
+                <img src="imagem/products01.png" class="tnt">
             </div>
             
             <div class="publi">
-                <img src="imagem/Produto01.jpg" class="tnt">
+                <img src="imagem/products02.jpg" class="tnt">
             </div>
 
             <div class="publi">
-                <img src="imagem/Produto02.jpg" class="tnt">
+                <img src="imagem/products03.jpg" class="tnt">
             </div>
             <div class="publi">
-                <img src="imagem/products.png" class="tnt">
+                <img src="imagem/products04.png" class="tnt">
             </div>
             <div class="publi">
-                <img src="imagem/products.png" class="tnt">
+                <img src="imagem/products05.png" class="tnt">
             </div>
             <div class="publi">
-                <img src="imagem/products.png" class="tnt">
+                <img src="imagem/products06.png" class="tnt">
             </div>
             <div class="publi">
-                <img src="imagem/products.png" class="tnt">
+                <img src="imagem/products07.png" class="tnt">
             </div>
             <div class="publi">
-                <img src="imagem/products.png" class="tnt">
+                <img src="imagem/products08.png" class="tnt">
             </div>
             <div class="publi">
-                <img src="imagem/products.png" class="tnt">
+                <img src="imagem/products09.png" class="tnt">
             </div>
             <div class="publi">
-                <img src="imagem/products.png" class="tnt">
+                <img src="imagem/products10.png" class="tnt">
             </div>
         </aside>
 
         <main class="mainC">
-            <h1 class="EntreContato">Seja Parceiro!</h1>
+            <h1 class="h1T">Seja Parceiro!</h1>
             <main class="maincontac">
-                <div class="teste">
+                <div class="divM">
                     <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
                     <form class="formC" onsubmit="alertaContato()" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-                        <input type=hidden name="oid" value="00DDo000001A4Hz">
-                        <input type=hidden name="retURL" value="http://127.0.0.1:5500/TreinoHTML/Projeto/SejaParceiro.html">
+                        <input class="inputFooter" type=hidden name="oid" value="00DDo000001A4Hz">
+                        <input class="inputFooter" type=hidden name="retURL" value="http://127.0.0.1:5500/TreinoHTML/Projeto/SejaParceiro.html">
 
                         <label for="first_name">Nome</label>
-                        <input  id="first_name" maxlength="40" name="first_name" size="20" type="text" required/><br>
+                        <input class="inputFooter" id="first_name" maxlength="40" name="first_name" size="20" type="text" required/> <br>
 
                         <label for="last_name">Sobrenome</label>
-                        <input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+                        <input class="inputFooter" id="last_name" maxlength="80" name="last_name" size="20" type="text"/> <br>
 
-                        CNPJ:<input  id="00NDo000000tuI2" maxlength="14" name="00NDo000000tuI2" size="20" type="text" /><br>
+                        CNPJ:<input class="inputFooter" id="00NDo000000tuI2" maxlength="14" name="00NDo000000tuI2" size="20" type="text" required/> <br>
 
                         <label for="phone">Telefone</label>
-                        <input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+                        <input class="inputFooter" id="phone" maxlength="40" name="phone" size="20" type="text"/> <br>
 
                         <label for="company">Nome da Empresa</label>
-                        <input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+                        <input class="inputFooter" id="company" maxlength="40" name="company" size="20" type="text" required/> <br>
 
                         <label for="email">Email</label>
-                        <input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+                        <input class="inputFooter" id="email" maxlength="80" name="email" size="20" type="text"/> <br>
 
-                        <label for="industry">Setor</label><select  id="industry" name="industry"><option value="">-- Nenhum --</option><option value="Agriculture">Agriculture</option>
+                        <label for="industry">Setor</label>
+                        <select class="inputFooter" id="industry" name="industry">
+                            <option value="">-- Nenhum --</option>
+                            <option value="Agriculture">Agriculture</option>
                             <option value="Apparel">Apparel</option>
                             <option value="Banking">Banking</option>
                             <option value="Biotechnology">Biotechnology</option>
@@ -130,25 +133,25 @@
                         </select><br>
                     
                         <label for="street">Rua</label>
-                        <textarea name="street"></textarea><br>
+                        <textarea name="street"></textarea> <br>
                     
                         <label for="city">Cidade</label>
-                        <input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
+                        <input class="inputFooter" id="city" maxlength="40" name="city" size="20" type="text"/> <br>
                     
                         <label for="state">Estado/província</label>
-                        <input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
+                        <input class="inputFooter" id="state" maxlength="20" name="state" size="20" type="text"/> <br>
                     
                         <label for="zip">CEP</label>
-                        <input  id="zip" maxlength="20" name="zip" size="20" type="text" /><br>
+                        <input class="inputFooter" id="zip" maxlength="20" name="zip" size="20" type="text"/> <br>
                     
                         <label for="country">País</label>
-                        <input  id="country" maxlength="40" name="country" size="20" type="text" /><br>
+                        <input class="inputFooter" id="country" maxlength="40" name="country" size="20" type="text"/> <br>
                     
                         <label for="description">Descrição</label>
-                        <textarea name="description"></textarea><br>
+                        <textarea name="description"></textarea> <br>
                     
-                        <input type="submit" name="submit">
-
+                        <input class="inputFooter" type="submit" name="submit">
+                    </form>
                 </div>
     </section>
 
