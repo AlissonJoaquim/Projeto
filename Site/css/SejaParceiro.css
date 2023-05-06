@@ -13,32 +13,6 @@ body {
     background-color: #B15C34;
 }
 
-            /* Animação NÃO PRECISA COPIAR*/
-
-/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
-body {
-	margin: 0;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: "Roboto", sans-serif;
-	font-weight: bold;
-}
-
-svg {
-	width: 100%;
-	height: 100vh;
-}
-
-.hidden {
-	visibility: hidden;
-}
-
-#base {
-	cursor: pointer;
-} */
-
 /* Header com nav */
 .header {
     position: fixed;
@@ -142,7 +116,7 @@ aside {
     margin-bottom: 10px;
 }
 
-.EntreContato {
+.h1T {
     text-align: center;
     margin: 50px;
     font-size: 35px;
@@ -157,7 +131,7 @@ aside {
     margin-right: auto;
 }
 
-.teste {
+.divM {
     justify-content: center;
     color: black;
 }
@@ -169,9 +143,9 @@ aside {
     text-align: center;
 }
 
-.teste01 {
+.inputFooter {
     border-style: none;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 form input,
@@ -185,12 +159,6 @@ textarea {
     border-radius: 20px;
 }
 /*Fim de section de cadastro*/
-
-/* Botão retornar ao topo */
-.topo {
-    height: 30px;
-    margin-left: 95%;
-}
 
 /* Footer */
 footer {
@@ -234,26 +202,18 @@ footer {
 }
 
 .wrapper .button:nth-child(1):hover .icon {
-    background: #4267B2;
-}
-
-.wrapper .button:nth-child(2):hover .icon {
-    background: #1DA1F2;
-}
-
-.wrapper .button:nth-child(3):hover .icon {
     background: #E1306C;
 }
 
-.wrapper .button:nth-child(4):hover .icon {
+.wrapper .button:nth-child(2):hover .icon {
     background: #ff0000;
 }
 
-.wrapper .button:nth-child(5):hover .icon {
+.wrapper .button:nth-child(3):hover .icon {
     background: #bfddf3;
 }
 
-.wrapper .button:nth-child(6):hover .icon {
+.wrapper .button:nth-child(4):hover .icon {
     background: #1d47de;
 }
 
@@ -276,22 +236,18 @@ footer {
 }
 
 .wrapper .button:nth-child(1) span {
-    color: #4267B2;
-}
-
-.wrapper .button:nth-child(2) span {
     color: #1DA1F2;
 }
 
-.wrapper .button:nth-child(3) span {
+.wrapper .button:nth-child(2) span {
     color: #E1306C;
 }
 
-.wrapper .button:nth-child(5) span {
+.wrapper .button:nth-child(3) span {
     color: #ff0000;
 }
 
-.wrapper .button:nth-child(6) span {
+.wrapper .button:nth-child(4) span {
     color: #1d47de;
 }
 
